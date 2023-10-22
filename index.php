@@ -5,6 +5,8 @@ if(isset($_SESSION["uid"])){
 	header("location:profile.php");
 }
 ?>
+def index(request):
+   return HttpResponse("This is index page")
 <!DOCTYPE html>
 <html>
 	<head>
